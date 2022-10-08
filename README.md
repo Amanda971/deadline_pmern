@@ -4,7 +4,7 @@ React / Express / MongoDB / Redux
 Dans le terminal
 Démarrer le server : npm start
 
-Back config :
+Backend config :
 
     Mettez vos informations de cluster dans /config/db.js
 
