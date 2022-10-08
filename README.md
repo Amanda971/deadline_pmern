@@ -1,5 +1,5 @@
 🚨MERN Stack🚨
-React / Express / MongoDB / Redux
+React / Express / MongoDB / React
 
 Dans le terminal
 Démarrer le server : npm start
