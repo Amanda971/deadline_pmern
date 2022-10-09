@@ -9,8 +9,6 @@ const { checkUser, requireAuth } = require("./middleware/auth.middleware");
 
 const app = express();
 
-//Le système permet de ce protéger des appels XHR depuis une origine différente.
-
 //Body-parser permet la lecture et le traitement des rêquetes HTTP
 //cookie-parser lire le cookie
 
