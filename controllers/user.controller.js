@@ -18,28 +18,30 @@ module.exports.userInfo = (req, res) => {
   }).select("-password");
 };
 
+//modifier ou ajouter
 module.exports.updateUser = async (req, res) => {
   if (!ObjectID.isValid(req.params.id))
-    return res.status(400).send("ID unknown : " + req.params.id);
-
+    return res.status(400).send("Id unknown " + req.params.id);
   try {
     await UserModel.findOneAndUpdate(
       { _id: req.params.id },
       {
         $set: {
-          email: req.body.email,
           adresse: req.body.adresse,
+          email: req.body.email,
           bio: req.body.bio,
         },
       },
-      { new: true, upsert: true, setDefaultsOnInsert: true },
-      (err, docs) => {
-        if (!err) return res.send(docs);
-        if (err) return res.status(500).send({ message: err });
-      }
-    );
+      { new: true, upsert: true, setDefaultsOnInsert: true }
+    )
+      .then((docs) => {
+        return res.send(docs);
+      })
+      .catch((err) => {
+        return res.status(500).send({ message: err });
+      });
   } catch (err) {
-    return res.status(500).json({ message: err });
+    return res.status(500).send({ message: err });
   }
 };
 
