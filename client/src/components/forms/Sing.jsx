@@ -2,8 +2,13 @@ import React from "react";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import axios from "axios";
 const Sing = () => {
+  axios({
+    method: "post",
+    url: "${process.env.REACT_APP_API_URL}api/user/register",
+  });
+
   return (
     <div className="form-row">
       <div className="form-group">

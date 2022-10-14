@@ -2,8 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIdCard } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const SingIn = () => {
+  axios({
+    method: "post",
+    url: "${process.env.REACT_APP_API_URL}api/user/login",
+  });
+
   return (
     <div className="form-row">
       <div className="form">
