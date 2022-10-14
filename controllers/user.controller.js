@@ -18,7 +18,7 @@ module.exports.userInfo = (req, res) => {
   }).select("-password");
 };
 
-//modifier ou ajouter
+//modifier
 module.exports.updateUser = async (req, res) => {
   if (!ObjectID.isValid(req.params.id))
     return res.status(400).send("Id unknown " + req.params.id);

@@ -1,0 +1,45 @@
+/*Style par défaut*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../public/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Montserrat;
+
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  background-color: rgba(249, 236, 207, 0.652);
+
+}
+
+button {
+  cursor: pointer
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+ul {
+  list-style: none;
+}

@@ -40,7 +40,7 @@ module.exports.signIn = async (req, res) => {
     res.cookie("jwt", token, { httpOnly: true, maxAge });
     res.status(200).json({ user: user._id });
   } catch (err) {
-    res.status(400).json({ errors });
+    res.status(400).json({ err });
   }
 };
 // Se déconnecter

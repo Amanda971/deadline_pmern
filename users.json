@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "6342a2af98d00e01fcc42ca4"
+  },
+  "pseudo": "angelica2",
+  "prenom": "angelica",
+  "nom": "delatranche",
+  "email": "angel@test.com",
+  "password": "$2b$10$nuNhIcL00R131dwZ93eBEelq95sCA89l31PkTsTntyEuuwjIyi1j2",
+  "adresse": "36 rue jolie nana 77000",
+  "telephone": "0638259565",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665311407652"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665311407652"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6342a33198d00e01fcc42ca6"
+  },
+  "pseudo": "Alkeys",
+  "prenom": "Alicia",
+  "nom": "Keys",
+  "email": "alicia.keys@test.com",
+  "password": "$2b$10$JPPyuzzcCVfVxEpV9B6h8ujR5hXDeLdnz16NQgkGJssqh/a6d.OCO",
+  "adresse": "36 rue du pacific 75012",
+  "telephone": "0607251285",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665311537775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665311537775"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6342a3f598d00e01fcc42cae"
+  },
+  "pseudo": "Queenee",
+  "prenom": "Béyoncé",
+  "nom": "Knowles",
+  "email": "beyoncéknowles@test.com",
+  "password": "$2b$10$eBnqJ1uap517KtA8hQOg/.dO0forD/Jgs4o43tEpFzqUbUqLELcVS",
+  "adresse": "36 rue du pacific",
+  "telephone": "0637249217",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665311733928"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665311733928"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6342a48598d00e01fcc42cb0"
+  },
+  "pseudo": "Usher",
+  "prenom": "Usher",
+  "nom": "Raymond",
+  "email": "usher@test.com",
+  "password": "$2b$10$pY.ZcTomH5pElaSydpuOZOFwR/3dTwq.rDkwmtSK.njrbyNyK6pT6",
+  "adresse": "36 rue du myboo",
+  "telephone": "0637529217",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665311877631"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665313416922"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63402c99e3bcf902aef9ce66"
+  },
+  "__v": 0,
+  "bio": "I'am Beyoncé",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665313723356"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665314680729"
+    }
+  },
+  "adresse": "36 rue dreamgirls"
+}]

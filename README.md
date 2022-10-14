@@ -12,3 +12,5 @@ Backend config :
         CLIENT_URL=http://localhost:3000 votre URL client
         TOKEN_SECRET = 99nonfozfitirbgfgfdnbs981090754654fefrtcdz953
         DB_USER_PASS = Mandy:Lovely971
+
+
