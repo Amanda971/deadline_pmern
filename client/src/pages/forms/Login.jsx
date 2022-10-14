@@ -1,4 +1,4 @@
-import Reactgit from "react";
+import React from "react";
 import "./forms.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
